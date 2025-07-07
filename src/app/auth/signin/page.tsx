@@ -108,19 +108,6 @@ export default function SignInPage() {
             </Button>
           )}
 
-          <div className="bg-gray-50 border rounded-lg p-3">
-            <p className="text-sm text-gray-600 mb-2 font-medium">
-              Test Credentials:
-            </p>
-            <p className="text-xs text-gray-500">
-              Username:{" "}
-              <span className="font-mono bg-white px-1 rounded">admin</span>
-              <br />
-              Password:{" "}
-              <span className="font-mono bg-white px-1 rounded">admin</span>
-            </p>
-          </div>
-
           <div className="text-center text-sm">
             Don't have an account?{" "}
             <Link href="/auth/signup" className="text-blue-600 hover:underline">
